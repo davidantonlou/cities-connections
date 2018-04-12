@@ -1,0 +1,15 @@
+---
+spring:
+  profiles: dev
+
+server:
+  port: 9997
+
+management:
+  security:
+    enabled: false
+
+logging:
+  level:
+    org.springframework.security: error
+    com.example.micro_cities: debug

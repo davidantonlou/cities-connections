@@ -1,0 +1,15 @@
+---
+spring:
+  profiles: dev
+
+server:
+  port: 9998
+
+management:
+  security:
+    enabled: false
+
+logging:
+  level:
+    org.springframework.security: error
+    com.example.micro_travels: debug
